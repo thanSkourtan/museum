@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="arrow_alt_right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-alt-right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dept1_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dept1-4.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Play_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Play Pressed.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="init_text" xml:space="preserve">
+    <value>«Βυζάντιο» ή «Βυζαντινή αυτοκρατορία» ονομάστηκε στους νεότερους χρόνους, τον 16ο αιώνα, η ρωμαϊκή αυτοκρατορία από το έτος 330 και εξής. Το πολυεθνικό και καταρχήν πολυθρησκευτικό αυτό κράτος, από τον 4ο αιώνα και μέχρι τη στιγμή της κατάλυσής του από τους Οθωμανούς Τούρκους, το 1453, επηρέασε καθοριστικά τις τύχες του αρχαίου και του μεσαιωνικού κόσμου. Η αυτοκρατορία από τον 3ο αιώνα αλλά κυρίως από τη στιγμή που η πρωτεύουσά της μετακινήθηκε από τη Ρώμη στην Κωνσταντινούπολη, το 330, άρχισε να μεταβάλλεται εδαφικά και διοικητικά και να μετεξελίσσεται. Η νέα πρωτεύουσα, που χαρακτηρίστηκε ως η Νέα Ρώμη, η «βασιλίς των πόλεων», ήταν στην πραγματικότητα η πόλη Βυζάντιο, η αρχαία ελληνική αποικία των Μεγαρέων στις ακτές του Βοσπόρου. Αυτή την πόλη ανακαίνισε, κόσμησε και μετονόμασε ο Μεγάλος Κωνσταντίνος. Ήταν αυτή που έμελλε να αποβεί κέντρο του πολιτισμού για όλο τον μεσαιωνικό κόσμο.
+Η αυτοκρατορία έως τον 5ο αιώνα εκτεινόταν στις τρεις ηπείρους περί τη Μεσόγειο, στην Ευρώπη, την Ασία και την Αφρική. Στα τέλη του 5ου αιώνα όμως, όταν η Ρώμη και το δυτικό τμήμα της καταλήφθηκαν από Γερμανικά φύλα, αυτή περιορίστηκε στα ανατολικά εδάφη της παλαιάς της επικράτειας. Έκτοτε τα σύνορά της άλλαζαν διαρκώς. Τον 6ο αιώνα ήταν ένα αχανές, πολυεθνικό και ακόμα πολυθρησκευτικό κράτος. Τον 11ο και τον 12ο εκτεινόταν, πολυεθνικό πάντα, στον ελλαδικό, αιγαιακό και ευρύτερο μικρασιατικό χώρο. Τον 13ο αιώνα, το 1204, έπαψε να υφίσταται, αφού καταλύθηκε από τους σταυροφόρους της Δ΄ Σταυροφορίας και υποκαταστάθηκε από κρατίδια, στη Νίκαια, την Ήπειρο και την Τραπεζούντα. Mετά την ανασύστασή της, τον Αύγουστο του 1261, και ιδίως κατά τον 14o και 15ο αιώνα, κατείχε μόνο τα ελληνικά εδάφη περί τη Βασιλεύουσα. Το Βυζαντινό κράτος δεν υπήρξε σε κανένα επίπεδο στατικό• το χαρακτηρίζουν διαρκείς μεταβολές στη δομή, τη λειτουργία, τον χαρακτήρα του. Οι επιδρομές (2ος-6ος αι.), η επέκταση των Αράβων (7ος αι.), οι επιδημίες πανώλους, οι αλλαγές στο κλίμα και άλλοι παράγοντες άφηναν τα ίχνη τους στους υπηκόους του, στη διοίκησή του, στον πολιτισμό. 
+Από τον 4ο έως τον 6ο αι. το Βυζάντιο ήταν ρωμαϊκό, κυρίως ειδωλολατρικό, με γλώσσα τη λατινική. Η σταδιακή αλλαγή μετά την καθιέρωση του χριστιανισμού (381), την απώλεια των εδαφών (5ος-7ος αι.), την Εικονομαχία (8ος-9ος αι.), είχε ως αποτέλεσμα τον 9ο αι. το κράτος να διατηρεί λίγα ρωμαϊκά χαρακτηριστικά. Ήταν πια εδαφικά περιορισμένο, πολυεθνικό, αλλά χριστιανικό, με γλώσσα την ελληνική, και με τον δικό του πρωτότυπο πολιτισμό. Η διοικητική διάρθρωση και η οικονομία άλλαξαν. Εξέλειπαν οι αχανείς επαρχίες του 4ου αι., ο αστικός ιστός κατέρρευσε και έδωσε τη θέση του σε οχυρούς οικισμούς. Το Βυζάντιο μετεξελίχθηκε σε κράτος αγροτικό και έμεινε έτσι την εποχή της ακμής (10ος, 12ος αι.) και έως το 1204. Αμετάλλακτος στον χρόνο διατηρήθηκε μόνον ο αυτοκρατορικός θεσμός, που διαμορφώθηκε νωρίς ενσωματώνοντας στις ελληνιστικές και ρωμαϊκές ιδέες περί βασιλείας το πνεύμα του χριστιανισμού. Ο αυτοκράτορας, πλαισιωμένος από μια αυστηρά δομημένη κρατική και εκκλησιαστική ιεραρχία, ενεργούσε ως οικουμενικός ηγέτης του μοναδικού επιγείου βασιλείου, εκπρόσωπος του Θεού επί γης, που  προστατεύει και οδηγεί στην αληθινή πίστη τους πολίτες όλου του κόσμου.</value>
+  </data>
+  <data name="Rewind" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rewind.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Forward" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Forward.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stop_Normal_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop Normal Blue.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dept1_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dept1-3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dept1_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dept1-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="_674020_point_of_interest" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\674020-point-of-interest.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about_vrettos" xml:space="preserve">
+    <value>Βρεττός Δημήτρης ΜΠΠΛ: 14008 e-mail: dimitrios.vrettos@hotmail.com</value>
+  </data>
+  <data name="play_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_alt_left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow-alt-left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Stop_Pressed_Blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Stop Pressed Blue.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dept1_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dept1-2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="back_sound" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\back_sound.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Sponge_512" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sponge-512.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="museum" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\museum.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="COPH_sound_icon_png" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\COPH-sound-icon-png.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pause_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pause-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="dept1_5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\dept1-5.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Pause_Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause Normal.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about_caption" xml:space="preserve">
+    <value>Δημιουργοί Εφαρμογής</value>
+  </data>
+  <data name="stop_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stop-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="about_skourtaniotis" xml:space="preserve">
+    <value>Σκουρτανιώτης Θανάσης ΜΠΠΛ: 14075 e-mail: thanpar@yahoo.com</value>
+  </data>
+  <data name="Pause_Pressed" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Pause Pressed.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="play_normal1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\play_normal.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="fractal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\fractal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="guestbook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guestbook.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guestbook_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guestbook_icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="agiasofia" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\agiasofia.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Record_Normal_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Record-Normal-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Record_Pressed_icon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Record-Pressed-icon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="visitsession" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loading.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>
